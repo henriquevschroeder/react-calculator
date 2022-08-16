@@ -1,0 +1,33 @@
+footer {
+  background-color: rgba(41, 46, 73, 0.467);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  box-shadow: 0 10px 10px 10px #1c1f32;
+  transition: height .15s;
+}
+
+footer:hover {
+  height: 55px;
+}
+
+footer h3 {
+  margin: 0;
+}
+
+footer a {
+  margin-left: 8px;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #eee;
+}
